@@ -25,3 +25,9 @@ void Kicker::KickForward(float speed)
 	LeftKickerMotor		-> SetSpeed(speed);
 	RightKickerMotor	-> SetSpeed(-speed);
 }
+
+void Kicker::StopKick()
+{
+	LeftKickerMotor		-> SetSpeed(0.0);
+	RightKickerMotor	-> SetSpeed(0.0);
+}
