@@ -15,6 +15,7 @@ public:
 	Kicker();
 	void InitDefaultCommand();
 	void KickForward(float speed);
+	void StopKick
 };
 
 #endif
