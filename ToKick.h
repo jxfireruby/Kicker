@@ -1,13 +1,13 @@
-#ifndef ToFeederLift_H
-#define ToFeederLift_H
+#ifndef ToKick_H
+#define ToKick_H
 
 #include "../CommandBase.h"
 #include "WPILib.h"
 
-class ToFeederLift: public CommandBase
+class ToKick: public CommandBase
 {
 public:
-	ToFeederLift();
+	ToKick();
 	void Initialize();
 	void Execute();
 	bool IsFinished();
